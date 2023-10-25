@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: #ff52c1;
+  --dark: #00252e;
+  --white: #fff;
+  --whitish: #e1e8ee;
+  --lightBlue: #f6fbff;
+  --gray: #808e9a;
+}
+
+html {
+  /* width: 100vw; */
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  padding: 1.75rem 1.5rem 0 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.logoContainer {
+  max-width: 15rem;
+  width: 25%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.tryItFree {
+  width: 20%;
+  margin-left: auto;
+  max-width: 8.5rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--pink);
+
+  background: var(--white);
+  box-shadow: 0px 0px 9px 0px rgba(255, 82, 193, 0.22);
+
+  color: var(--pink);
+  font-family: Open Sans;
+  font-size: 0.58825rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.upperMain {
+  width: 100%;
+  padding: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.upperMainInfoContainer > h1 {
+  color: var(--dark);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.upperMainInfoContainer > p {
+  margin-top: 1.5rem;
+  color: var(--dark);
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+}
+
+.getStartedForFreeButton {
+  margin-top: 3rem;
+  background-color: var(--pink);
+  filter: drop-shadow(0px 3px 7px rgba(0, 37, 46, 0.22));
+  border-radius: 2rem;
+  border: none;
+  width: 12.5rem;
+  height: 2.5rem;
+
+  color: var(--white);
+  font-family: Open Sans;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+}
+
+.huddleVisualisationContainer {
+  width: 100%;
+  margin-top: 6.5rem;
+}
+
+.desktopHuddleVisual {
+  width: 100%;
+}
+
+.statisticsContainer {
+  width: 100%;
+  margin-top: 7.5rem;
+  padding: 0 29%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.statistics {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.statisticsImgHolder {
+  width: 20%;
+}
+.statisticsImg {
+  width: 100%;
+}
+
+.statistcsNumber {
+  width: 100%;
+  color: var(--dark);
+  font-family: Open Sans;
+  font-size: 350%;
+  font-weight: 700;
+  line-height: 5.71431rem;
+}
+.statisticsType {
+  width: 100%;
+  color: var(--gray);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 0.95238rem;
+  font-weight: 400;
+  line-height: 1.42856rem;
+}
+
+.midMain {
+  width: 100%;
+}
+
+.midMainFirstContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstBackgroundImage,
+.secondBackgroundImage {
+  width: 100%;
+}
+.firstContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--lightBlue);
+}
+.midMainFirstContainerImgHolder {
+  margin-top: 5rem;
+  order: 1;
+  width: 66%;
+}
+.midMainFirstContainerImgHolder > img {
+  width: 100%;
+}
+.midMainContainerInfo {
+  order: 2;
+  width: 100%;
+  margin-top: 4.6rem;
+}
+
+.midMainContainerInfo > h3 {
+  color: var(--dark);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+.midMainContainerInfo > p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 0 0.6rem;
+  color: var(--dark);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+}
+
+.midMainSecondContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.midMainThirdContainer {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lowerMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.lowerMain > h2 {
+  color: var(--dark);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+footer {
+  margin-top: 16rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footertopBackgroundImageContainer {
+  display: flex;
+}
+.footertopBackgroundImageContainer > img {
+  width: 100%;
+}
+
+.actualFooterContainer {
+  width: 100%;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  padding: 5em 1.75rem 2rem 1.75rem;
+  color: var(--white);
+}
+
+.newsLetterInfo {
+  width: 100%;
+  font-family: Open Sans;
+}
+
+.newsLetterInfo > h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.newsLetterInfo > p {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.subscribeToEmailContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.newsLetterInput {
+  width: 100%;
+  border-radius: 0.375rem;
+  background: var(--white);
+  text-indent: 1rem;
+  height: 3rem;
+}
+
+.subscribeButton {
+  width: 50%;
+  border-radius: 0.3125rem;
+  background: var(--pink);
+  height: 3rem;
+  margin-top: 1rem;
+  color: #fff;
+
+  align-self: flex-end;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  border: none;
+}
+
+.additionalInfo {
+  width: 100%;
+  margin-top: 6.5rem;
+}
+
+.footerLogoContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.additionalInfo > p {
+  width: 100%;
+  margin-top: -2rem;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.contactInfo {
+  width: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.contact > text {
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.socials {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.08rem;
+}
+
+.social {
+  width: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social > svg {
+  width: 100%;
+}
+
+.instagram > svg {
+  filter: invert(1);
+}
+
+.instagram > svg:hover {
+  filter: invert(0.45) sepia(1) saturate(5) hue-rotate(189deg) brightness(1.4);
+}
+
+.facebook > svg > path:hover,
+.twitter > svg > path:hover {
+  fill: #00c7fa;
+}
+
+@media (min-width: 64rem) {
+  header {
+    padding: 5rem 5rem 0 5rem;
+  }
+
+  .logoContainer {
+    width: 15%;
+  }
+
+  .tryItFree {
+    font-size: 1rem;
+  }
+
+  .tryItFree:hover {
+    border: 1px solid #ff8ed7;
+    color: #ff8ed7;
+  }
+
+  main {
+    margin-top: 14rem;
+  }
+
+  .upperMain {
+    padding: 0 13.2rem;
+  }
+
+  .upperMainInfoContainer > h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+
+  .huddleVisualisationContainer {
+  }
+  .upperMainInfoContainer > p {
+    margin-top: 1.6rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .getStartedForFreeButton:hover {
+    background-color: #ff8ed7;
+  }
+
+  .getStartedForFreeButton {
+    margin-top: 5rem;
+    border-radius: 4rem;
+    width: 25rem;
+    height: 5rem;
+
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .statisticsContainer {
+    padding: 0 19%;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .statisticsContainer :nth-child(2) {
+    margin-left: auto;
+  }
+
+  .statistics {
+    width: 28%;
+    flex-direction: column;
+  }
+  .statistcsNumber {
+    font-size: 6rem;
+    line-height: 9rem;
+  }
+  .statisticsType {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .firstContent {
+    flex-direction: row;
+    padding: 0 9rem;
+    gap: 7rem;
+  }
+  .midMainFirstContainerImgHolder {
+    margin-top: 0;
+    order: 2;
+    width: 100%;
+  }
+
+  .midMainContainerInfo {
+    order: 1;
+  }
+
+  .midMainContainerInfo > h3 {
+    text-align: start;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+  .midMainContainerInfo > p {
+    margin-top: 1.62rem;
+    margin-bottom: 0rem;
+    padding: 0;
+    text-align: start;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .midMainSecondContainer {
+    flex-direction: row;
+    margin-top: 12rem;
+    padding: 0 8rem;
+    gap: 8rem;
+  }
+
+  .midMainContainerInfo {
+    order: 2;
+  }
+
+  .midMainThirdContainer {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lowerMain {
+    margin-top: 8rem;
+  }
+
+  .lowerMain > h2 {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+
+  footer {
+    margin-top: 11rem;
+  }
+
+  .actualFooterContainer {
+    flex-direction: row;
+    padding: 5rem 15.75rem 6.5rem 7.5rem;
+  }
+
+  .newsLetter {
+    order: 2;
+    width: 45%;
+    margin-left: auto;
+  }
+
+  .newsLetterInfo > h4 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .newsLetterInfo > p {
+    width: 70%;
+  }
+
+  .subscribeToEmailContainer {
+    flex-direction: row;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .newsLetterInput {
+    width: 66%;
+    text-indent: 1rem;
+    height: 3rem;
+  }
+
+  .subscribeButton:hover {
+    background-color: #ff8ed7;
+  }
+
+  .subscribeButton {
+    width: 33%;
+    border-radius: 0.3125rem;
+    margin-top: 0;
+  }
+
+  .additionalInfo {
+    order: 1;
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .footerLogoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .contactInfo {
+    margin-top: 1.5rem;
+  }
+  .contact {
+    align-items: center;
+  }
+  .contact > text {
+    font-size: 1rem;
+  }
+  .contactImageHolder {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .socials {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.08rem;
+  }
+
+  .social {
+    width: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social > svg {
+    width: 100%;
+  }
+
+  .instagram > svg {
+    filter: invert(1);
+  }
+
+  .instagram > svg:hover {
+    filter: invert(0.45) sepia(1) saturate(5) hue-rotate(189deg) brightness(1.4);
+  }
+
+  .facebook > svg > path:hover,
+  .twitter > svg > path:hover {
+    fill: #00c7fa;
+  }
+}
